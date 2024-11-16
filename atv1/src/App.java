@@ -9,19 +9,24 @@ public class App {
         ListaLigada lista = new ListaLigada(); 
         
         try {
-            try (BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\mclar\\Documents\\Analise de Desempenho - Codigo\\atv1\\src\\arq2.txt")) // só mudar o arquivo aqui
+            try (BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\mclar\\Documents\\Analise de Desempenho - Codigo\\atv1\\src\\arq.txt")) // só mudar o arquivo aqui
             ) {
                 String linha;
                 int contagemLinhas = 0;
                 
                 while ((linha = reader.readLine()) != null) {
+
+                    if (linha.trim().isEmpty()) {
+                        continue;
+                    }
+
                     contagemLinhas++;
                     if (contagemLinhas == 1) {
                         String[] valores = linha.split(" ");
                         for (String valor : valores) {
                             lista.insereElemento(Integer.parseInt(valor));
                         }
-                    } else if (contagemLinhas >= 3) {
+                    } else if (contagemLinhas > 2) {
                         String[] partes = linha.split(" ");
                         char acao = partes[0].charAt(0);
                         switch (acao) {
