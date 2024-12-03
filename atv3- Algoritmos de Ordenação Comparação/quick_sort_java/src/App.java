@@ -4,7 +4,7 @@ import java.util.*;
 
 public class App {
     public static void main(String[] args) {
-        String fileName = "C:\\Users\\mclar\\Documents\\Analise de Desempenho - Codigo\\atv3\\arq.txt";
+        String fileName = "C:\\Users\\mclar\\Documents\\Analise de Desempenho - Codigo\\atv3- Algoritmos de Ordenação Comparação\\arq.txt";
         List<Integer> list = new ArrayList<>();
         
         // Leitura do arquivo

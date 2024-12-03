@@ -13,7 +13,7 @@ def bubble_sort(alist):
 # Leitura do arquivo, ordenação e salvamento
 def main():
     # Nome do arquivo
-    file_name = "C:\\Users\\mclar\\Documents\\Analise de Desempenho - Codigo\\atv3\\arq.txt"
+    file_name = "C:\\Users\\mclar\\Documents\\Analise de Desempenho - Codigo\\atv3- Algoritmos de Ordenação Comparação\\arq.txt"
 
     # Leitura da lista do arquivo
     with open(file_name, "r") as file:

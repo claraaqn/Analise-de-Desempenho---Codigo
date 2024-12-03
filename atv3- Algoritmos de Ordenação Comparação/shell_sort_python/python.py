@@ -1,5 +1,5 @@
 import time
-import tracemalloc  # Para medir memória
+import tracemalloc 
 
 def shell_sort(arr):
     n = len(arr)
@@ -16,16 +16,13 @@ def shell_sort(arr):
         gap //= 2  
         
 
-# Leitura do arquivo, ordenação e salvamento
 def main():
     # Nome do arquivo
-    file_name = "C:\\Users\\mclar\\Documents\\Analise de Desempenho - Codigo\\atv3\\arq.txt"
+    file_name = "C:\\Users\\mclar\\Documents\\Analise de Desempenho - Codigo\\atv3- Algoritmos de Ordenação Comparação\\arq.txt"
 
-    # Leitura da lista do arquivo
     with open(file_name, "r") as file:
         arr = list(map(int, file.read().split()))
 
-    # Medição de tempo e memória
     tracemalloc.start()
     start_time = time.time()
     shell_sort(arr)
@@ -33,7 +30,6 @@ def main():
     current, peak = tracemalloc.get_traced_memory()
     tracemalloc.stop()
 
-    # Salvando a lista ordenada
     output_file = "shell_sort_python.txt"
     with open(output_file, "w") as file:
         file.write(" ".join(map(str, arr)))
