@@ -18,7 +18,7 @@ def shell_sort(arr):
 
 def main():
     # Nome do arquivo
-    file_name = "arq-desafio.txt"
+    file_name = "atv5 - Desafio 1/arq-desafio.txt"
 
     with open(file_name, "r") as file:
         arr = list(map(int, file.read().split()))

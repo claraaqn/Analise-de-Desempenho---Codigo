@@ -22,7 +22,7 @@ public class App {
 
     // Método principal
     public static void main(String[] args) {
-        String fileName = "arq-desafio.txt";
+        String fileName = "atv5 - Desafio 1/arq-desafio.txt";
         List<Integer> list = new ArrayList<>();
         
         // Leitura do arquivo

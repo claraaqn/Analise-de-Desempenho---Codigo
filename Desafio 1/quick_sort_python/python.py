@@ -4,7 +4,7 @@ import numpy as np
 
 def main():
     # Nome do arquivo
-    file_name = r"arq-desafio.txt"
+    file_name = r"atv5 - Desafio 1/arq-desafio.txt"
 
     try:
         # Leitura da lista do arquivo
