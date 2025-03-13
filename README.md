@@ -5,14 +5,14 @@ Este repositório contém os projetos e experimentos realizados durante a discip
 ## Conteúdo do Repositório
 
 ### 1. Avaliação de Algoritmos
-- **Algoritmos Implementados**: Quick Sort, Merge Sort.
+- **Algoritmos Implementados**: Quick Sort, Merge Sort, Bubble Sort, etc.
 - **Metodologia**: Foram realizados testes de desempenho com diferentes tamanhos de entradas para comparar a eficiência dos algoritmos.
-- **Ferramentas**: Python, bibliotecas como `time` para medição de tempo e `matplotlib` para visualização dos resultados.
+- **Ferramentas**: Python, bibliotecas como `time` para medição de tempo e `matplotlib` e `seaborn` para visualização dos resultados. Foram feitos também avaliações desses algoritmos em Java e C++.
 
 ### 2. Otimização de Consultas SQL
 - **Objetivo**: Melhorar o desempenho de consultas em bancos de dados SQL.
 - **Técnicas Utilizadas**: Indexação, reescrita de queries e análise de planos de execução.
-- **Ferramentas**: MySQL, PostgreSQL e ferramentas de profiling como `EXPLAIN`.
+- **Ferramentas**: MySQL.
 
 ### 3. Comandos no Bash
 - **Exploração**: Foram estudados e aplicados comandos avançados no Bash para automação de tarefas e processamento de dados.
@@ -21,7 +21,7 @@ Este repositório contém os projetos e experimentos realizados durante a discip
 ### 4. Testes de Desempenho em APIs
 - **Frameworks Testados**: Flask (Python) e Node.js (JavaScript).
 - **Metodologia**: Foram realizadas requisições HTTP (GET, POST) para avaliar o tempo de resposta de cada API.
-- **Ferramentas**: `Postman` para testes manuais, `Apache Benchmark (ab)` para testes automatizados e `matplotlib` para visualização dos resultados.
+- **Ferramentas**: `Apache Benchmark (ab)` para testes automatizados.
 
 ## Como Executar o Projeto
 
